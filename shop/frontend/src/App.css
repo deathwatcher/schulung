@@ -1,0 +1,23 @@
+/* grid styling */
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  min-height: 100px;
+  background: rgb(119,0,0);
+  background: linear-gradient(90deg, rgba(119,0,0,1) 2%, rgba(5,170,9,1) 34%, rgba(0,170,204,1) 100%);
+}
+
+nav {
+  min-height: 80vh;
+  background: rgb(105,105,105);
+  background: linear-gradient(0deg, rgba(105,105,105,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+nav a {
+  display: block;
+}
