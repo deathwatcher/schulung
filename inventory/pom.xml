@@ -11,6 +11,10 @@
 	<artifactId>inventory</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>inventory</name>
+	
+	<properties>
+		<start-class>com.example.inventory.InventoryApplication</start-class>
+	</properties>
 
 	<dependencies>
 		<dependency>
