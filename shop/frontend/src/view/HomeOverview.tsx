@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-export default function CampaignOverview() {
+export default function HomeOverview() {
 
     return (
         <div className="home">
