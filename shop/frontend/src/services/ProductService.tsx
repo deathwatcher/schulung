@@ -4,7 +4,7 @@ export default class ProductService {
     private readonly url: string;
 
     public constructor() {
-        this.url = "http://localhost:8080/shop";
+        this.url = "http://backend:8080/shop";
     }
 
     public getAll(setData: (p:ProductItem[]) => void): void {
